@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 my $pi = 3.14;
-my $a = 2 * $pi * 12.5;
-
-say "$a";
+my $jirum;
+chomp($jirum = <STDIN>);
+say $jirum * 2 * $pi;
 
