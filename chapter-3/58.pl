@@ -5,10 +5,18 @@ use utf8;
 use strict;
 use warnings;
 
-@array  = 5..9;
-$fred = pop@array;
+my @array  = 5..9;
+my $fred = pop@array;
 say $fred;
-$barney = pop@array;
+my $barney = pop@array;
 say $barney;
 pop @array;
+say @array;
+
+push (@array, 0);
+say @array;
+push @array, 8;
+push @array, 1..10
+my @others = qw/ 9 0 2 1 0 /;
+push @array, @others;
 say @array;
