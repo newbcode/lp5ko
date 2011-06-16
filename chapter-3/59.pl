@@ -5,6 +5,3 @@ use utf8;
 use strict;
 use warnings;
 
-chomp(my @line = <STDIN>);
-my @rline = reverse(@line);
-say @rline;

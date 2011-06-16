@@ -5,6 +5,6 @@ use utf8;
 use strict;
 use warnings;
 
-chomp (my @line=<STDIN>);
+chomp(my @line = <STDIN>);
 my @sline = sort(@line);
 say @sline;
