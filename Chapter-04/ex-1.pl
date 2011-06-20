@@ -13,7 +13,7 @@ my @fred = qw / 1
 /;
 my $fred_total = total(@fred);
 say "The total of \@fred is $fred_total.";
-my $user_total = total();
+my $user_total = &total();
 say "The total of those numbers is $user_total.";
 
 sub total {
