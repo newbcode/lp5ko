@@ -5,21 +5,24 @@ use utf8;
 use strict;
 use warnings;
 
-my @fred = qw / 1
-                3
-                5
-                7
-                9
+my @fred = qw/
+    1
+    3
+    5
+    7
+    9
 /;
 my $fred_total = total(@fred);
 say "The total of \@fred is $fred_total.";
 my $user_total = &total();
-say "The total of those numbers is $user_total.";
+say "The total of those numbers is [$user_total].";
 
 sub total {
-    my $sum;
+    my $sum = 0;
+
     foreach (@_) {
-    $sum += $_;
+        $sum += $_;
     }
+
     $sum;
 }

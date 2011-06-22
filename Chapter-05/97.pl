@@ -6,6 +6,7 @@ use strict;
 use warnings;
 
 foreach (<STDIN>) {
-    say "[$_]";
+    chomp;
+    print "$_\n";
 }
 
