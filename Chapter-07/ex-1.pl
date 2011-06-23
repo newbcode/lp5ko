@@ -6,12 +6,7 @@ use strict;
 use warnings;
 
 while (<>) {
-<<<<<<< HEAD
     if (/fred|Fred/) {
         print "$_";
-=======
-    if (/fred/) {
-        say;
->>>>>>> ADD Chap 7
     }
 }
