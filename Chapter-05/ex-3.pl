@@ -7,7 +7,7 @@ use warnings;
 
 print "012346789" x 7, "\n";
 chomp(my @lines = <STDIN>);
+my $num1 = shift@lines;
 foreach (@lines) {
-     my $num1 = shift@lines;
-     printf "%${num1}s", $_;
+ printf "%${num1}s\n", $_;
 }
