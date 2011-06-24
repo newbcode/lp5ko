@@ -6,11 +6,10 @@ use strict;
 use warnings;
 
 while (<>) {
-    chomp;
-    if ( /(.)\1/ ) {
-        say "Matched : [$_]";
+    if ( /wilma|fred/ ) {
+        say "Matched : $_";
     }
     else {
-        say "No Matchd";
+        say "No Matched"
     }
 }
