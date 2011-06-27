@@ -8,5 +8,7 @@ use warnings;
 $_ = "I Saw Barney with Fred";
 s/(fred|barney)/\U$1/gi;
 say ;
-s/(fred|barney)/\L$1/gi;
+s/(fred|barney)/\U$1/ig;
 say ;
+#s/(fred|barney)/\L$1/gi;
+#say ;
