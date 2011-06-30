@@ -4,12 +4,15 @@ use 5.010;
 use utf8;
 use strict;
 use warnings;
+
+my %count;
+my ($total, $valid);
 while (<>) {
     foreach (split) {
-       my $total++;
+        $total++;
         next if /\W/;
-        my $valid++;
-        my $count{$_}++;
+        $valid++;
+        $count{$_}++;
     }
 }
 print "total things = $total, valid words = $valid\n";
