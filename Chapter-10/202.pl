@@ -5,9 +5,5 @@ use utf8;
 use strict;
 use warnings;
 
-chomp(my $date = `date`);
-$^I = ".bak";
-
-while(<>) {
-    s/^
-
+my $n = 0.5;
+print "$n is a negative number.\n" if $n < 1;

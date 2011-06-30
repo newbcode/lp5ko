@@ -5,6 +5,7 @@ use utf8;
 use strict;
 use warnings;
 
+my $filename = 'test';
 open FILE, $filename
 or die "Can't open '$filename': $!";
 my $line = join '', <FILE>;

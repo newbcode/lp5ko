@@ -5,9 +5,6 @@ use utf8;
 use strict;
 use warnings;
 
-chomp(my $date = `date`);
-$^I = ".bak";
-
-while(<>) {
-    s/^
-
+for (my $i = -150; $i <= 1000; $i += 3) {
+    say "$i";
+}

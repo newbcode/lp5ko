@@ -5,9 +5,7 @@ use utf8;
 use strict;
 use warnings;
 
-chomp(my $date = `date`);
-$^I = ".bak";
-
-while(<>) {
-    s/^
-
+for ($_ = "bedrock"; s/(.)//; ) {
+say "$_";
+say "$1";
+}
