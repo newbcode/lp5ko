@@ -17,13 +17,13 @@ while (1) {
         last;
     }
     else {
-        if ( $secret == $passwd ) {
+        if ( $secret eq $passwd ) {
             say "Success in the Input Password";
         }
-        elsif ( $secret < $passwd ) {
+        elsif ( $secret gt $passwd ) {
             say "This is Bigger!";
         }
-        elsif ( $secret > $passwd ) {
+        elsif ( $secret lt $passwd ) {
             say "This is Smaller!";
         }
         else {
