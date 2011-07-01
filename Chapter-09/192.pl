@@ -5,9 +5,13 @@ use utf8;
 use strict;
 use warnings;
 
-chomp(my $date = `date`);
+my $date = localtime;
 $^I = ".bak";
 
 while(<>) {
-    s/^
+    s/^Author:.*/Author: Randal L. Schwartz/;
+    s/^Phone:.*\n//;
+    s/^Date:.*/Date; $date/;
+    print;
+}
 

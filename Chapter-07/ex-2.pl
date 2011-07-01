@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 while (<>) {
-    if ( /fred|Fred/) {
+    if ( /[a-z]+|[A-Z]+/) {
         print "$_";
     }
 }

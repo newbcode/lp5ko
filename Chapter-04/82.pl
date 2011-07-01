@@ -6,7 +6,6 @@ use strict;
 use warnings;
 
 foreach (1..10) {
-    my($square) = $_ * $_;
+    my $square = $_ * $_;
     say "$_ squared is $square"
 }
-say "[$square]";

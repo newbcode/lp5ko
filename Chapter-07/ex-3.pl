@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 while (<>) {
-    if ( /.\.\./ ) {
+    if ( /\./ ) {
         print "$_";
     }
 }

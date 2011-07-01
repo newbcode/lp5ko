@@ -12,7 +12,7 @@ while (1) {
     
     print "Input Password: ";
     chomp(my $passwd = <STDIN>);
-    if ( $passwd =~ /quit|exit/ ) {
+    if ( $passwd =~ /quit|exit|^\s*$/i ) {
         say "Exit Program";
         last;
     }
