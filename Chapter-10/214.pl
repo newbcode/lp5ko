@@ -5,10 +5,10 @@ use utf8;
 use strict;
 use warnings;
 
-my %count;
-my ($total, $valid);
+my %count;  # %count 해쉬 선언
+my ($total, $valid);    #total valid 선언
 while (<>) {
-    foreach (split) {
+    foreach (split) { 
         $total++;
         next if /\W/;
         $valid++;
@@ -16,7 +16,7 @@ while (<>) {
     }
 }
 print "total things = $total, valid words = $valid\n";
-foreach my $word (sort keys my %count) {
+foreach my $word (sort keys %count) {
     print "$word was seen $count{$word} times.\n";
 }
 
