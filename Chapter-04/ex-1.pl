@@ -19,10 +19,8 @@ say "The total of those numbers is [$user_total].";
 
 sub total {
     my $sum = 0;
-
     foreach (@_) {
         $sum += $_;
     }
-
     $sum;
 }
