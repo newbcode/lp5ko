@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 sub attributes {
-    my $file = shift @_;
+    my $file = $_[0];
     return "does not exits" unless -e $file;
 
     my @attrib;
