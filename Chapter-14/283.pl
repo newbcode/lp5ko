@@ -7,4 +7,4 @@ use warnings;
 
 my $date_tag = sprintf
             "%4d/%2d/%2d %2d:%2d:%2d",
-            $yrm 
+            $yr, $mo, $da, $h, $m, $s; 
