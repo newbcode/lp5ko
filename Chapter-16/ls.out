@@ -1,0 +1,23 @@
+합계 96
+drwxr-xr-x   2 root root  4096 2011-06-14 01:13 bin
+drwxr-xr-x   3 root root  4096 2011-06-14 01:26 boot
+drwxr-xr-x   2 root root  4096 2011-06-14 00:41 cdrom
+drwxr-xr-x  18 root root  3680 2011-07-31 12:01 dev
+drwxr-xr-x 133 root root 12288 2011-07-31 12:01 etc
+drwxr-xr-x   3 root root  4096 2011-06-14 00:42 home
+lrwxrwxrwx   1 root root    33 2011-06-14 00:52 initrd.img -> boot/initrd.img-2.6.35-22-generic
+drwxr-xr-x  16 root root 12288 2011-06-15 01:41 lib
+drwx------   2 root root 16384 2011-06-14 00:34 lost+found
+drwxr-xr-x   2 root root  4096 2010-10-08 00:56 media
+drwxr-xr-x   2 root root  4096 2010-10-07 18:15 mnt
+drwxr-xr-x   2 root root  4096 2010-10-08 00:56 opt
+dr-xr-xr-x 119 root root     0 2011-07-31 12:01 proc
+drwx------  10 root root  4096 2011-06-15 01:05 root
+drwxr-xr-x   2 root root  4096 2011-06-14 01:23 sbin
+drwxr-xr-x   2 root root  4096 2010-05-10 00:54 selinux
+drwxr-xr-x   3 root root  4096 2011-06-15 01:43 srv
+drwxr-xr-x  12 root root     0 2011-07-31 12:01 sys
+drwxrwxrwt   8 root root  4096 2011-07-31 23:38 tmp
+drwxr-xr-x  11 root root  4096 2011-06-15 01:41 usr
+drwxr-xr-x  14 root root  4096 2010-10-08 01:12 var
+lrwxrwxrwx   1 root root    30 2011-06-14 00:52 vmlinuz -> boot/vmlinuz-2.6.35-22-generic
