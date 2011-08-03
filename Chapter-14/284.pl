@@ -10,4 +10,7 @@ say $money;
 
 sub big_money {
     my $number = sprintf "%2f", shift @_;
-    1 while $number s/^(-?\d+)(
+    1 while $number s/^(-?\d+)(\d\d\d)/$1,$2/;
+    $number =~ s/^(-?)/$1\$/;
+    $number;
+}
