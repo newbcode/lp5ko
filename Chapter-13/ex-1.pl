@@ -14,5 +14,5 @@ else {
     chdir "/$dir_name" or die "$!";
     say "Success Move $dir_name";
     my @allfiles = glob "*";
-    say "@allfiles";
+    print "@allfiles";
 }
