@@ -7,9 +7,9 @@ use warnings;
 
 given ( $ARGV[0] ) {
     when ( /fred/i ) { 
-        say 'Name has fred in it'; continue }
+        say 'Name has fred in it' }
     when ( $_ =~ /^Fred/ ) {
-        say 'Name starts with Fred'; continue }
+        say 'Name starts with Fred'}
     when ( 'Fred' ) {
         say 'Name is Fred'; }
     default {
